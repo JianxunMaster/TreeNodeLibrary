@@ -32,7 +32,7 @@
             TreeNode<String> treeNode0 = new TreeNode<>("0级:" + i);
             list.add(treeNode0);
             for (int j = 0; j < 10; j++) {
-                TreeNode<String> treeNode1 = new TreeNode<>("1级:" + i);
+                TreeNode<String> treeNode1 = new TreeNode<>("1级:" + j);
                 treeNode0.addChild(treeNode1);
                 for (int k = 0; k < 10; k++) {
                     TreeNode<String> treeNode2 = new TreeNode<>("2级:" + k);

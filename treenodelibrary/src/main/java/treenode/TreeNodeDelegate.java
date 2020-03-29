@@ -1,6 +1,7 @@
 package treenode;
 
-public abstract class TreeNodeItemViewDelegate<T> {
+public abstract class TreeNodeDelegate<T> {
+   public TreeNodeAdapter<T> adapter;
     /**
      * 是否是当前类型
      *
@@ -19,8 +20,8 @@ public abstract class TreeNodeItemViewDelegate<T> {
     /**
      * 视图适配
      *
-     * @param viewHolder 视图持有者
-     * @param treeNode   树节点
+     * @param holder   视图持有者
+     * @param treeNode 树节点
      */
-    public abstract void convert(ViewHolder viewHolder, TreeNode<T> treeNode);
+    public abstract void convert(ViewHolder holder, TreeNode<T> treeNode);
 }

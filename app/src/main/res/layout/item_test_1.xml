@@ -8,8 +8,10 @@
 
     <TextView
         android:id="@+id/textTv"
+        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="#ff8888"
         android:text="111" />
 </LinearLayout>

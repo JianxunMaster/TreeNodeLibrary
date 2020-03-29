@@ -1,13 +1,12 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             TreeNode<String> treeNode0 = new TreeNode<>("0级:" + i);
             list.add(treeNode0);
             for (int j = 0; j < 10; j++) {
-                TreeNode<String> treeNode1 = new TreeNode<>("1级:" + i);
+                TreeNode<String> treeNode1 = new TreeNode<>("1级:" + j);
                 treeNode0.addChild(treeNode1);
                 for (int k = 0; k < 10; k++) {
                     TreeNode<String> treeNode2 = new TreeNode<>("2级:" + k);

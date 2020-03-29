@@ -9,7 +9,9 @@
     <TextView
         android:id="@+id/textTv"
         android:layout_width="match_parent"
+        android:padding="5dp"
+        android:textSize="14sp"
         android:layout_height="wrap_content"
-        android:padding="12dp"
+        android:textColor="#88ff88"
         android:text="111" />
 </LinearLayout>

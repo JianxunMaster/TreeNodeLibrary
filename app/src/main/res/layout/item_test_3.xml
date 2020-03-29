@@ -10,6 +10,8 @@
         android:id="@+id/textTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:text="111" />
+        android:padding="5dp"
+        android:text="111"
+        android:textColor="#8888ff"
+        android:textSize="10sp" />
 </LinearLayout>
