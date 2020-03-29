@@ -20,8 +20,10 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.JianxunMaster:TreeNodeLibrary:1.0.0'
 	}
+	
 
 [![](https://jitpack.io/v/JianxunMaster/TreeNodeLibrary.svg)](https://jitpack.io/#JianxunMaster/TreeNodeLibrary)
+
 
 
 # 简介
