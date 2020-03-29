@@ -2,6 +2,8 @@
 
    多级列表适配器依赖库
    
+   ListView 适配器请移步[MultiLevelLibrary](https://github.com/JianxunMaster/MultiLevelLibrary)
+   
    # 添加依赖
 
 Step 1. Add the JitPack repository to your build file
